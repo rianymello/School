@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problemas mais comuns</title>
+    
+  <!-- Importação dos estilos do Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- Importação dos estilos do AOS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+   <!-- Importação dos estilos do Hover.css -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+  <!-- Ícone do site -->
+  <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
+
+  <style>
+    .hvr-underline-from-center::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 4px;
+      bottom: 0;
+      left: 0;
+      background-color: white;
+      visibility: hidden;
+      transform: scaleX(0);
+      transition: all 0.3s ease-in-out;
+    }
+
+    .hvr-underline-from-center:hover::before {
+      visibility: visible;
+      transform: scaleX(1);
+    }
+
+    .problema-lista {
+    list-style-type: disc;
+    margin-left: 30px;
+  }
+  /* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+  width: 8px; 
+  background-color: transparent; 
+}
+
+/* Estilizando a barrinha da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background-color: #d4d4d4; 
+  border-radius: 2px; 
+  transform-origin: top; 
+}
+
+  </style>
+
+</head>
+<body class="bg-gray-900 text-white">
+    
+  <!-- Barra de navegação -->
+  <nav class="bg-purple-600 p-9 flex items-center justify-between">
+    <div>
+      <img class="w-40" src="../assets/img/logotipo.png" alt="logotipo">
+    </div>
+    <div class="space-x-7 text-lg mr-4">
+      <a href="../index.html" class="hvr-underline-from-center" >Introdução</a>
+      <a href="#" class="hvr-underline-from-center">Problemas comuns</a>
+    </div>
+  </nav>
+  
+  <div class="flex flex-wrap justify-center mr-20 ml-20 space-y-8">
+    
+    <h1 class="text-7xl text-center my-8 font-bold" data-aos="fade-up">Os problemas mais comuns</h1>
+    <div class="w-full">
+        <div class="flex justify-end">
+          <div class="bg-purple-500 w-1/2 p-4 rounded-lg mb-8 mr-8 shadow-2xl " data-aos="fade-right">
+            <h2 class="text-center text-3xl mb-4">Problemas de energia:</h2>
+            <ul class="problema-lista">
+              <li>O computador não liga.</li>
+              <li>O computador liga, mas não arranca.</li>
+              <li>O computador liga e arranca parcialmente.</li>
+              <li>O computador desliga aleatoriamente.</li>
+              <li>O computador liga, mas a fonte de alimentação faz ruídos estranhos.</li>
+              <li>O computador liga, mas a ventoinha da fonte de alimentação não funciona.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="w-full">
+        <div class="flex justify-start">
+          <div class="bg-purple-500 w-1/2 p-4 rounded-lg mb-8 ml-8 shadow-2xl " data-aos="fade-left">
+            <h2 class="text-center text-3xl mb-4">Problemas com o SETUP:</h2>
+            <ul class="problema-lista">
+              <li>O computador está lento.</li>
+              <li>O computador apresenta erros de memória.</li>
+              <li>O computador aquece demais.</li>
+              <li>O computador apresenta artefatos gráficos.</li>
+              <li>O computador não reconhece os dispositivos USB.</li>
+              <li>O computador não emite som.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="w-full">
+        <div class="flex justify-end">
+          <div class="bg-purple-500 w-1/2 p-4 rounded-lg mb-8 mr-8 shadow-2xl " data-aos="fade-right">
+            <h2 class="text-center text-3xl mb-4">Problemas de vídeo:</h2>
+            <ul class="problema-lista">
+              <li>Nada aparece no monitor.</li>
+              <li>Caracteres aleatórios aparecem na tela.</li>
+              <li>A imagem rola horizontal ou verticalmente.</li>
+              <li>As linhas superiores da imagem são mais largas que as inferiores.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="w-full">
+        <div class="flex justify-start">
+          <div class="bg-purple-500 w-1/2 p-4 rounded-lg mb-8 ml-8 shadow-2xl " data-aos="fade-left">
+            <h2 class="text-center text-3xl mb-4">Problemas com a motherboard:</h2>
+            <ul class="problema-lista">
+              <li>Componentes não identificados.</li>
+              <li>A placa-mãe está danificada.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="w-full">
+        <div class="flex justify-end">
+          <div class="bg-purple-500 w-1/2 p-4 rounded-lg mb-8 mr-8 shadow-2xl " data-aos="fade-right">
+            <h2 class="text-center text-3xl mb-4">Problemas com a memória:</h2>
+            <ul class="problema-lista">
+              <li>A cache está com defeito.</li>
+              <li>O upgrade da memória RAM parece não funcionar.</li>
+              <li>A memória RAM não é reconhecida.</li>
+              <li>A memória RAM está danificada.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="w-full">
+        <div class="flex justify-start">
+          <div class="bg-purple-500 w-1/2 p-4 rounded-lg mb-8 ml-8 shadow-2xl " data-aos="fade-left">
+            <h2 class="text-center text-3xl mb-4">Problemas com o processador:</h2>
+            <ul class="problema-lista">
+              <li>O computador não arranca.</li>
+              <li>A cache L1 está com defeito.</li>
+              <li>O computador está superaquecendo.</li>
+              <li>O processador trava.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="w-full">
+        <div class="flex justify-end">
+          <div class="bg-purple-500 w-1/2 p-4 rounded-lg mb-8 mr-8 shadow-2xl " data-aos="fade-right">
+            <h2 class="text-center text-3xl mb-4">Problemas com a ROM:</h2>
+            <ul class="problema-lista">
+              <li>O PC não consegue realizar o teste de inicialização.</li>
+              <li>Dispositivos não são detectados (HD, CD, DVD, FD).</li>
+              <li>A ROM está configurada corretamente.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="w-full">
+        <div class="flex justify-start">
+          <div class="bg-purple-500 w-1/2 p-4 rounded-lg mb-8 ml-8 shadow-2xl " data-aos="fade-left">
+            <h2 class="text-center text-3xl mb-4">Problemas com o disco rígido:</h2>
+            <ul class="problema-lista">
+              <li>O disco rígido não funciona.</li>
+              <li>O disco não arranca e exibe a mensagem "C: drive failure insert boot disk".</li>
+              <li>O disco rígido funcionava bem, mas parou de funcionar após a troca da motherboard.</li>
+              <li>Não é possível inicializar com o disco rígido, mas ele funciona bem ao iniciar com um disco de sistema.</li>
+              <li>O sistema reconhece apenas 512MB de capacidade em um disco de grande capacidade.</li>
+              <li>O computador não consegue criar partições superiores a 2GB.</li>
+              <li>Erros ocasionais são encontrados durante a execução do scandisk.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="w-full">
+        <div class="flex justify-end">
+          <div class="bg-purple-500 w-1/2 p-4 rounded-lg mb-8 mr-8 shadow-2xl " data-aos="fade-right">
+            <h2 class="text-center text-3xl mb-4">Problemas com o teclado:</h2>
+            <ul class="problema-lista">
+              <li>O teclado gera mensagens de erro.</li>
+              <li>O teclado não funciona.</li>
+              <li>O teclado não responde.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="w-full">
+        <div class="flex justify-start">
+          <div class="bg-purple-500 w-1/2 p-4 rounded-lg mb-8 ml-8 shadow-2xl " data-aos="fade-left">
+            <h2 class="text-center text-3xl mb-4">Problemas com outros periféricos:</h2>
+            <ul class="problema-lista">
+              <li>A impressora não imprime.</li>
+              <li>A impressora imprime caracteres aleatórios.</li>
+              <li>O scanner não responde.</li>
+              <li>O mouse não se move.</li>
+              <li>O dispositivo não funciona.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+  </div>
+  
+  <!-- Rodapé -->
+<footer class="bg-purple-600 text-white p-14">
+  <div class="flex flex-col">
+      <div>
+          <img class="w-20" src="../assets/img/logotipo.png" alt="logotipo">
+      </div>
+      <div class="flex flex-col md:flex-row md:justify-between md:items-start ml-36">
+          <div class="w-full md:w-1/4 mb-4 md:mb-0">
+              <h3 class="text-lg font-bold mb-2">Contatos</h3>
+              <ul>
+                  <li class="mb-1">mello.riany@gmail.com</li>
+                  <li class="mb-1">tgpsi22rianymello@etap.pt</li>
+                  <li><a href="https://github.com/rianymello" class="hover:text-gray-400"><i class="fab fa-github" style="color: #ffffff;"></i></a></li>
+              </ul>
+          </div>
+          <div class="w-full md:w-1/4 mb-4 md:mb-0">
+              <h3 class="text-lg font-bold mb-2">Fontes</h3>
+              <ul>
+                  <li class="mb-1"><a href="#" class="hover:text-gray-400">Informações</a></li>
+                  <li class="mb-1"><a href="#" class="hover:text-gray-400">Icones</a></li>
+                  <li><a href="#" class="hover:text-gray-400">Imagem</a></li>
+              </ul >
+          </div>
+          <div class="w-full md:w-1/4">
+              <h3 class="text-lg font-bold mb-2">Links importantes</h3>
+              <ul>
+                  <li class="mb-1"><a href="#" class="hover:text-gray-400">Portifolio</a></li>
+                  <li class="mb-1"><a href="#" class="hover:text-gray-400">Repositório</a></li>
+                  <li><a href="#" class="hover:text-gray-400">Site da Escola</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.tailwindcss.com/2.2.19/tailwind.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  
+  <script>
+    // Inicialização do AOS (Animate On Scroll)
+    AOS.init({
+      once: false // Isso faz com que animações sejam executadas toda vez
+    });
+  </script>
+</body>
+</html>

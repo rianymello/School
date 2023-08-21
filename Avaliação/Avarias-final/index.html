@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Inicio</title>
+
+  <!-- Importação dos estilos do Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- Importação dos estilos do AOS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Importação dos estilos do Hover.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+    
+  <!-- Importação dos icones Font Awesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!-- Ícone do site -->
+  <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+   <!-- Importação do CSS  -->
+  <link rel="stylesheet" href="./styles/style.css">
+ 
+</head>
+
+<body class="bg-gray-900 text-white">
+
+  <!-- Barra de navegação -->
+  <nav class="bg-purple-600 p-9 flex items-center justify-between">
+    <div>
+      <img class="w-40" src="./assets/img/logotipo.png" alt="logotipo">
+    </div>
+    <div class="space-x-7 text-lg mr-4">
+      <a href="#" class="hvr-underline-from-center">Introdução</a>
+      <a href="./src/problemas.html" class="hvr-underline-from-center">Problemas comuns</a>
+    </div>
+  </nav>
+
+  <!-- Seção do banner -->
+  <section class="flex items-center justify-center">
+    <div class="mr-4">
+      <img src="./assets/img/bannerImg.png" alt="" class="max-w-xl ml-4 hvr-float logo-animation">
+    </div>
+    <div class="flex flex-col justify-center gap-4" style="width: 500px;">
+      <h1 class="text-7xl font-bold" data-aos="fade-up">Detecção de Avarias</h1>
+      <p class="text-white" data-aos="fade-up" data-aos-delay="200">Descubra os segredos da detecção de avarias em ambientes espaciais, onde cada segundo conta para garantir a segurança e a missão. Explore o cosmos, enfrente desafios tecnológicos e mergulhe no desconhecido como um verdadeiro astronauta. Esteja preparado para enfrentar os obstáculos e superá-los com sucesso.</p>
+      <button onclick="smoothScroll('#introduction')" class="mt-4 px-6 py-2 bg-purple-600 text-white rounded-lg shadow hover:bg-purple-700 transition-colors duration-300">Saiba mais</button>
+    </div>
+  </section>
+
+  <!-- Seção de introdução -->
+  <section id="introduction" class="mt-40 mb-40" data-aos="fade-up">
+    <div class="bg-purple-600 rounded-lg shadow-2xl p-14 text-white mx-40">
+      <h1 class="text-4xl font-bold">Introdução</h1>
+      <div class="my-4 flex items-center">
+        <p class="mr-4">Em um mundo tecnológico em constante evolução, é comum nos depararmos com problemas em nossos computadores. A BIOS falha, o disco rígido apresenta sinais de falha e as ventoinhas emitem ruídos desconcertantes. O medo de um colapso completo do nosso PC é real. Mas não se preocupe, pois estamos aqui para ajudar. Aqui vamos explorar estratégias eficazes para lidar com essas situações e trazer de volta o bom funcionamento do seu computador.</p>
+        <p>Descubra como recuperar o ambiente de trabalho, solucionar problemas de disco rígido e lidar com a resposta da BIOS. Nosso objetivo é restaurar a confiança em seu computador e fornecer as respostas que você precisa. Junte-se a nós nesta jornada de resolução de problemas tecnológicos e descubra os segredos para superar as adversidades que surgem no mundo dos computadores.</p>
+      </div>
+    </div>
+  </section>
+
+<!-- Seção do rodapé -->
+<footer class="bg-purple-600 text-white p-14">
+  <div class="flex flex-col">
+    <div>
+      <img class="w-20" src="./assets/img/logotipo.png" alt="logotipo">
+    </div>
+    <div class="flex flex-col md:flex-row md:justify-between md:items-start ml-36">
+      <div class="w-full md:w-1/4 mb-4 md:mb-0">
+        <h3 class="text-lg font-bold mb-2">Contatos</h3>
+        <ul>
+          <li class="mb-1">mello.riany@gmail.com</li>
+          <li class="mb-1">tgpsi22rianymello@etap.pt</li>
+          <li>
+            <a href="https://github.com/rianymello" target="_blank">
+              <i class="fab fa-github" style="color: #ffffff;"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/rianymello/" target="_blank">
+              <i class="fab fa-linkedin" style="color: #ffffff;"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="w-full md:w-1/4 mb-4 md:mb-0">
+        <h3 class="text-lg font-bold mb-2">Fontes</h3>
+        <ul>
+          <li class="mb-1">
+            <a href="https://danieltendeiro.weebly.com/avarias-mais-comuns.html" target="_blank">Informações</a>
+          </li>
+          <li class="mb-1">
+            <a href="https://www.recraft.ai/" target="_blank">Imagens</a>
+          </li>
+          <li class="mb-1">
+            <a href="https://fontawesome.com/" target="_blank">Ícones</a>
+          </li>
+        </ul>
+      </div>
+      <div class="w-full md:w-1/4 mb-4 md:mb-0">
+        <h3 class="text-lg font-bold mb-2">Outros Links</h3>
+        <ul>
+          <li class="mb-1">
+            <!-- Eu vou adicionar o link quando terminar o portifolio -->
+            <a href="#" target="_blank">Portfólio</a>
+          </li>
+          <li class="mb-1">
+            <a href="https://github.com/rianymello/Avarias" target="_blank">Repositório</a>
+          </li>
+          <li class="mb-1">
+            <a href="https://www.etap.pt/" target="_blank">Site da Escola</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- Scripts personalizados -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  <script>
+    // Ativar a animação de fade-in ao fazer scroll
+    AOS.init();
+
+    // Função para rolar suavemente para a introdução
+    function smoothScroll(target) {
+      $("html, body").animate({
+        scrollTop: $(target).offset().top
+      }, 800);
+    }
+  </script>
+
+</body>
+</html>
